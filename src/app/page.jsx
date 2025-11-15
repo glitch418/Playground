@@ -8,6 +8,7 @@ import OurServices from "../components/OurServices/OurServices";
 import Metro from "../components/Metro/Metro";
 import TestimonialCarousel from "../components/TestimonialCaraousel/TestimonialCarousel";
 import Footer from "../components/Footer/Footer";
+import Socials from "../components/Socials/Socials";
 
 export default function Home() {
   const featuredItems = [
@@ -128,7 +129,7 @@ export default function Home() {
         </div>
 
         <div className={styles.socialSection}>
-
+          <Socials />
         </div>
 
         <div className={styles.photoSection}>
